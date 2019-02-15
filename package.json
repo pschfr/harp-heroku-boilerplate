@@ -1,0 +1,29 @@
+{
+  "name": "harp-heroku-boilerplate",
+  "version": "1.0.0",
+  "description": "A boilerplate for setting up Harp web server with Heroku!",
+  "main": "index.js",
+  "scripts": {
+    "serve": "harp server --port $PORT",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pschfr/harp-heroku-boilerplate.git"
+  },
+  "keywords": [
+    "harp",
+    "harpjs",
+    "harp-boilerplate",
+    "heroku"
+  ],
+  "author": "Paul Schaefer",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pschfr/harp-heroku-boilerplate/issues"
+  },
+  "homepage": "https://github.com/pschfr/harp-heroku-boilerplate#readme",
+  "dependencies": {
+    "harp": "^0.29.0"
+  }
+}
