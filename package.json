@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "serve": "harp server --port $PORT",
+    "build": "harp compile",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {

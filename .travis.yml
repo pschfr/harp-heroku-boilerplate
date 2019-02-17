@@ -3,7 +3,7 @@ node_js:
   - 8
 before_script:
   - npm install
-script: npm run serve
+script: npm run build
 deploy:
   local-dir: www
   provider: pages
